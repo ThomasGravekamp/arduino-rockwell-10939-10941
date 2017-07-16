@@ -44,6 +44,7 @@ void setup () {
 byte line1Index = 0;
 byte line2Index = 0;
 
+// display buffers
 char line1[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 char line2[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
@@ -63,6 +64,9 @@ void loop () {
   }
 
   if (line1[20] && line2[20]) {
+    // If you're modding a pinball machine, you'll want to edit this part of the code.
+    // Update your custom display solution instead of printing the data to the serial connection.
+
     line1[20] = 0;
     line2[20] = 0;
 

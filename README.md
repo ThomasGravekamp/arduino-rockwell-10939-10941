@@ -4,7 +4,7 @@ This code will make an Arduino Uno (or Nano) behave like an Rockwell 10939/10941
 
 This project has been developed to debug the data coming from an Gottlieb System 80B pinball machine as the display was not working properly.
 
-More documentation to be added soon...
+This project can also be used to drive an alternative display based on LCD or LEDs. The code should be changed to make this work. See [this blog post](https://thomas-gravekamp.nl/arduino-and-the-rockwell-10941-10939-chipset/) for more information.
 
 ## Important
 
